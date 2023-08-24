@@ -1,0 +1,53 @@
+.timer-container {
+    margin: auto;
+    text-align: center;
+    border: 1px solid #919191;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.controls button {
+    padding: 10px;
+    margin: 5px 10px;
+    font-size: 1em;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #fff3;
+    color: #fff7;
+    border: none;
+    line-height: .8px;
+}
+
+
+.control-main button {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px 10px;
+    font-size: 1em;
+    border: none;
+    color: #000;
+    margin-top: 30px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* legngth label */
+.controls div {
+    margin: 0 10px;
+}
+
+/* control label */
+.label {
+    color: #fff7;
+}
+
+#time-left {
+    font-size: 1.8em;
+}

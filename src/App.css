@@ -1,0 +1,56 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   transition: all 0.3s ease;
+ }
+
+ html {
+   scroll-behavior: smooth;
+ }
+
+
+ body {
+   background: #3a3a3a;
+   width: 80vw;
+   margin: auto;
+   margin-top: 100px;
+ }
+
+ h2 {
+   font-size: 20px;
+   margin: 15px 0;
+   color: gray;
+ }
+
+ p {
+   margin: 0;
+   font-size: 20px;
+ }
+
+ nav {
+   font-size: 2em;
+   display: flex;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: #fff;
+   margin: 0 10px;
+ }
+
+ nav .active {
+   background: #ff00005c;
+   padding: 0 10px;
+ }
+
+ main {
+   width: 450px;
+   padding: 40px 40px 10px 40px;
+   border: 1px solid #919191;
+   margin: auto;
+   min-height: 70vh;
+   width: 80vw;
+   display: flex;
+ }

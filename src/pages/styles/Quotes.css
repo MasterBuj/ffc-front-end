@@ -1,0 +1,38 @@
+ .quotes-container {
+     max-width: 800px;
+     margin: auto;
+     border-radius: 10px;
+     border: 1px solid #919191;
+     padding: 10px 30px;
+ }
+
+ #text {
+     font-size: 1.4em;
+     text-align: center;
+ }
+
+ #author {
+     text-align: right;
+ }
+
+ .actions {
+     display: flex;
+     align-items: center;
+ }
+
+
+ #tweet-quote,
+ #new-quote {
+     background-color: #0000003c;
+     border-radius: 5px;
+     border: none;
+     padding: 5px 10px;
+     cursor: pointer;
+     font-size: 20px;
+     color: #ffffff;
+ }
+
+ #tweet-quote {
+     margin-left: 15px;
+     text-decoration: none;
+ }

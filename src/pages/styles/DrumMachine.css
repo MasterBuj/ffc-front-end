@@ -1,0 +1,31 @@
+.drum-machine-container {
+    border: 1px solid #919191;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.drum-pads {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.drum-pad {
+    flex: 1 1 100px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+.drum-pad:hover {
+    background: #ffffff70;
+}
+
+#display {
+    margin: auto;
+}

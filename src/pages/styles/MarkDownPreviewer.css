@@ -1,0 +1,28 @@
+.markdown-container {
+    width: 100%;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.editor {
+    display: flex;
+    gap: 50px;
+}
+
+.editor div {
+    flex: 1;
+}
+
+textarea {
+    width: 100%;
+    background: #ffffff12;
+    height: 95%;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+#preview {
+    border: 1px solid #919191;
+    padding: 40px;
+}
